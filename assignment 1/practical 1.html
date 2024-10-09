@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Business Products</title>
+    <link rel="stylesheet" href="practical1.css">
+</head>
+<body>
+    <h1>Product List</h1>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>router </td>
+            <td>$10</td>
+            <td><img src="img 1.jpg" alt="Product 1" width="50"></td>
+        </tr>
+        <tr>
+            <td>shoes</td>
+            <td>$15</td>
+            <td><img src="product 2.jpg" alt="Product 2" width="50"></td>
+        </tr>
+        <!-- Add more products as needed -->
+    </table>
+
+    <h2>Register</h2>
+    <form action="/submit_registration" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
